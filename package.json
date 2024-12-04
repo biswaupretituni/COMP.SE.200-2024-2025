@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.1.1"
   }
 }
