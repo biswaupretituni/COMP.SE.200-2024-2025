@@ -4,4 +4,7 @@ export default {
   roots: ['<rootDir>/tests'], // Test files location
   testMatch: ['**/*.test.js'], // Match test files ending with `.test.js`
   moduleFileExtensions: ['js', 'json', 'node'],
+  coveragePathIgnorePatterns: [
+    '.internal/',     // Exclude .internal directory
+  ]
 };
