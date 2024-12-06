@@ -5,6 +5,6 @@ export default {
   testMatch: ['**/*.test.js'], // Match test files ending with `.test.js`
   moduleFileExtensions: ['js', 'json', 'node'],
   coveragePathIgnorePatterns: [
-    '.internal/',     // Exclude .internal directory
+    '/src/.internal/',     // Exclude .internal directory
   ]
 };
